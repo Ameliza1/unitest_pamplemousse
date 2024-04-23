@@ -30,6 +30,8 @@ class TestTupleMaxElements(unittest.TestCase):
     
     def test_tuple_max_elements2(self):
         self.assertEqual(tuple_max_elements([(1, 2), (3, 4, 5), (6,), (7, 8, 9, 10), (11, 12, 13, 14, 15)]), (11, 12, 13, 14, 15))
+
+    def test_tuple_max_elements3(self):
         self.assertEqual(tuple_max_elements([(1,), (2,), (3,), (4,), (5,), (6,), (7,), (8,2)]), (8,2))
 
 if __name__ == '__main__':
